@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: my.company.SimpleTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.023 sec <<< FAILURE! - in my.company.SimpleTest
+failedTest(my.company.SimpleTest)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at my.company.SimpleTest.failedTest(SimpleTest.java:44)
+

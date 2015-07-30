@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.company.SimpleTest" time="0.046" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SYBASE_WS" value="WS-15_0"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_55\jre"/>
+    <property name="DSLISTEN" value="ADMINPC"/>
+    <property name="SYBASE_JRE6" value="E:\sybase\Shared\JRE-6_0_6_64BIT"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="INCLUDE" value="E:\sybase\OCS-15_0\include;C:\sybase\OCS-12_5\include;E:\sybase\OCS-15_0\include"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_55\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="SYBASE_JRE6_64" value="E:\sybase\Shared\JRE-6_0_6_64BIT"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="RanorexPath" value="C:\Program Files (x86)\Ranorex 5.3\"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.7.0_55"/>
+    <property name="SYBASE_ASE" value="ASE-15_0"/>
+    <property name="JOB_NAME" value="allure"/>
+    <property name="COMPUTERNAME" value="ADMIN-PC"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="ADMIN-PC$"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="LIB" value="E:\sybase\DataAccess\ADONET\dll;E:\sybase\OCS-15_0\lib;C:\sybase\OCS-12_5\lib;E:\sybase\DataAccess\ADONET\dll;E:\sybase\OCS-15_0\lib"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="SYBASE_UA" value="E:\sybase\UAF-2_5"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-allure-42"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="SYBASE_OCS" value="OCS-15_0"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.52.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 65083"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="04bd6a58e4276697"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.7.0_55/bin;C:\csvn\bin\;C:\csvn\Python25\;E:\sybase\ASE-15_0\jobscheduler\bin;E:\sybase\ASE-15_0\dll;E:\sybase\ASE-15_0\bin;E:\sybase\DBISQL\bin;E:\sybase\DataAccess\ADONET\dll;E:\sybase\DataAccess\ODBC\dll;E:\sybase\UAF-2_5\bin;E:\sybase\OCS-15_0\lib3p;E:\sybase\OCS-15_0\dll;E:\sybase\OCS-15_0\bin;C:\sybase\OLEDB;C:\sybase\ODBC;C:\sybase\ASEP_Win32;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\bin;E:\sybase\ASE-15_0\jobscheduler\bin;E:\sybase\ASE-15_0\dll;E:\sybase\ASE-15_0\bin;E:\sybase\DBISQL\bin;E:\sybase\DataAccess\ADONET\dll;E:\sybase\DataAccess\ODBC\dll;E:\sybase\UAF-2_5\bin;E:\sybase\OCS-15_0\lib3p;E:\sybase\OCS-15_0\dll;E:\sybase\OCS-15_0\bin;C:\Program Files\maven\apache-maven-3.0.5\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Subversion\bin;C:\Program Files (x86)\Subversion\bin;.\shared-1_0\jre1.2.2\bin;C:\Program Files\TortoiseHg\;C:\Program Files\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin;D:\apache-ant-1.9.4\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\build-tools;C:\Program Files (x86)\Git\bin;"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="java.io.tmpdir" value="C:\Temp\"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="user.language" value="ru"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/allure/42/"/>
+    <property name="SYBASE_JRE6_32" value="E:\sybase\Shared\JRE-6_0_6_32BIT"/>
+    <property name="M2_HOME" value="C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#42"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="SYBROOT" value="E:\sybase"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="SCROOT" value="E:\sybase\Shared\Sybase Central 6.0.0"/>
+    <property name="HUDSON_SERVER_COOKIE" value="04bd6a58e4276697"/>
+    <property name="DSQUERY" value="ADMINPC"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="42"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_55\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3/bin;C:\Program Files\Java\jdk1.7.0_55/bin;C:\Program Files\Java\jdk1.7.0_55/bin;C:\csvn\bin\;C:\csvn\Python25\;E:\sybase\ASE-15_0\jobscheduler\bin;E:\sybase\ASE-15_0\dll;E:\sybase\ASE-15_0\bin;E:\sybase\DBISQL\bin;E:\sybase\DataAccess\ADONET\dll;E:\sybase\DataAccess\ODBC\dll;E:\sybase\UAF-2_5\bin;E:\sybase\OCS-15_0\lib3p;E:\sybase\OCS-15_0\dll;E:\sybase\OCS-15_0\bin;C:\sybase\OLEDB;C:\sybase\ODBC;C:\sybase\ASEP_Win32;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\bin;E:\sybase\ASE-15_0\jobscheduler\bin;E:\sybase\ASE-15_0\dll;E:\sybase\ASE-15_0\bin;E:\sybase\DBISQL\bin;E:\sybase\DataAccess\ADONET\dll;E:\sybase\DataAccess\ODBC\dll;E:\sybase\UAF-2_5\bin;E:\sybase\OCS-15_0\lib3p;E:\sybase\OCS-15_0\dll;E:\sybase\OCS-15_0\bin;C:\Program Files\maven\apache-maven-3.0.5\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Subversion\bin;C:\Program Files (x86)\Subversion\bin;.\shared-1_0\jre1.2.2\bin;C:\Program Files\TortoiseHg\;C:\Program Files\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin;D:\apache-ant-1.9.4\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\build-tools;C:\Program Files (x86)\Git\bin;;."/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="VBOX_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="POM_GROUPID" value="ru.yandex.qatools.allure"/>
+    <property name="POM_ARTIFACTID" value="allure-testng-example"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="APR_ICONV1_PATH" value="C:\csvn\bin\iconv\"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/allure/"/>
+    <property name="SYBASE" value="E:\sybase"/>
+    <property name="SYBASE_JRE" value="C:\sybase\shared-1_0\jre1.2.2"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="BUILD_ID" value="42"/>
+    <property name="TEMP" value="C:\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_55\jre\bin"/>
+    <property name="M2" value="C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3/bin"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_55"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_55\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\"/>
+    <property name="USERNAME" value="ADMIN-PC$"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\jobs\allure\workspace\allure-testng-example"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="24.55-b03"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\jobs\allure\workspace"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.7.0_55-b13"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_55\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_55\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_55\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_55\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_55\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_55\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_55\jre\classes"/>
+    <property name="APR_ICONV_PATH" value="C:\Program Files (x86)\Subversion\iconv"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.7.0_55/bin"/>
+    <property name="user.country" value="RU"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Program Files\maven\apache-maven-3.3.3-bin\apache-maven-3.3.3"/>
+    <property name="PYTHONHOME" value="C:\csvn\Python25\"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="SYBASE_JRE_RTDS" value="E:\sybase\Shared\JRE-6_0_6_32BIT"/>
+    <property name="POM_DISPLAYNAME" value="Allure TestNG Example"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase name="csvAttachmentTest" classname="my.company.SimpleTest" time="0.019"/>
+  <testcase name="failedTest" classname="my.company.SimpleTest" time="0.023">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at my.company.SimpleTest.failedTest(SimpleTest.java:44)
+</failure>
+  </testcase>
+  <testcase name="simpleTest" classname="my.company.SimpleTest" time="0.004"/>
+  <testcase name="simpleTestWithSteps" classname="my.company.SimpleTest" time="0"/>
+</testsuite>
